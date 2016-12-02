@@ -1,0 +1,1503 @@
+{
+  "message": "Data found successfully.",
+  "result": {
+    "devices": [
+      {
+        "networkCode": 1,
+        "code": 7393,
+        "id": null,
+        "name": "TME-SMCI-1-SWITCH-A2",
+        "fabName": null,
+        "fabId": null,
+        "clusterId": null,
+        "localMac": null,
+        "fabricNetwork": null,
+        "controlNetwork": null,
+        "mgmtIp": null,
+        "mgmtNetmask": null,
+        "mgmtMac": null,
+        "mgmtSecondaryMacs": null,
+        "inBandIp": null,
+        "inBandNetmask": null,
+        "inBandMac": null,
+        "inBandVlan": null,
+        "inBandSecondaryMacs": null,
+        "fabTid": null,
+        "clusterTid": null,
+        "outPort": null,
+        "version": null,
+        "state": null,
+        "firmwareUpgrade": null,
+        "deviceState": null,
+        "ports": null,
+        "type": "B",
+        "fabMcastIp": null,
+        "mgmtL3Port": null,
+        "inBandL3Port": null,
+        "portCount": 0,
+        "vnetId": null,
+        "mgmtPublicVlan": null,
+        "inBandVlanType": null,
+        "inBandPublicVlan": null,
+        "coordinateX": 68.82561174308296,
+        "coordinateY": 34.69779600206704,
+        "label": null,
+        "networkTrunks": null,
+        "networkVlags": null,
+        "networkPorts": null
+      },
+      {
+        "networkCode": 1,
+        "code": 7396,
+        "id": null,
+        "name": "18:64:72:c6:2a:6a",
+        "fabName": null,
+        "fabId": null,
+        "clusterId": null,
+        "localMac": null,
+        "fabricNetwork": null,
+        "controlNetwork": null,
+        "mgmtIp": null,
+        "mgmtNetmask": null,
+        "mgmtMac": null,
+        "mgmtSecondaryMacs": null,
+        "inBandIp": null,
+        "inBandNetmask": null,
+        "inBandMac": null,
+        "inBandVlan": null,
+        "inBandSecondaryMacs": null,
+        "fabTid": null,
+        "clusterTid": null,
+        "outPort": null,
+        "version": null,
+        "state": null,
+        "firmwareUpgrade": null,
+        "deviceState": null,
+        "ports": null,
+        "type": "W",
+        "fabMcastIp": null,
+        "mgmtL3Port": null,
+        "inBandL3Port": null,
+        "portCount": 0,
+        "vnetId": null,
+        "mgmtPublicVlan": null,
+        "inBandVlanType": null,
+        "inBandPublicVlan": null,
+        "coordinateX": 667.6756794066856,
+        "coordinateY": 70.58455015480374,
+        "label": null,
+        "networkTrunks": null,
+        "networkVlags": null,
+        "networkPorts": null
+      },
+      {
+        "networkCode": 1,
+        "code": 7394,
+        "id": "201326761",
+        "name": "cruxa0",
+        "fabName": "pn-fab",
+        "fabId": "b000021:52a1b620",
+        "clusterId": "0:0",
+        "localMac": "64:0e:94:30:02:11",
+        "fabricNetwork": "in-band",
+        "controlNetwork": "in-band",
+        "mgmtIp": "10.20.19.117",
+        "mgmtNetmask": 16,
+        "mgmtMac": "64:0e:94:30:02:0f",
+        "mgmtSecondaryMacs": null,
+        "inBandIp": "192.168.20.117",
+        "inBandNetmask": 16,
+        "inBandMac": "00:00:00:00:00:00",
+        "inBandVlan": 0,
+        "inBandSecondaryMacs": null,
+        "fabTid": 4738,
+        "clusterTid": 0,
+        "outPort": 43,
+        "version": "2.5.2050110293,pn-nvOS-2.5.1-2050112421",
+        "state": "online",
+        "firmwareUpgrade": "not-required",
+        "deviceState": "ok",
+        "ports": "72",
+        "type": null,
+        "fabMcastIp": null,
+        "mgmtL3Port": null,
+        "inBandL3Port": null,
+        "portCount": 0,
+        "vnetId": "0:0",
+        "mgmtPublicVlan": 0,
+        "inBandVlanType": "public",
+        "inBandPublicVlan": 0,
+        "coordinateX": 560.0,
+        "coordinateY": 790.0,
+        "label": null,
+        "networkTrunks": null,
+        "networkVlags": null,
+        "networkPorts": null
+      },
+      {
+        "networkCode": 1,
+        "code": 7395,
+        "id": "167772422",
+        "name": "pn-dev03",
+        "fabName": "pn-fab",
+        "fabId": "b000021:52a1b620",
+        "clusterId": "0:0",
+        "localMac": "64:0e:94:28:03:e2",
+        "fabricNetwork": "in-band",
+        "controlNetwork": "in-band",
+        "mgmtIp": "10.20.9.157",
+        "mgmtNetmask": 16,
+        "mgmtMac": "64:0e:94:28:03:e4",
+        "mgmtSecondaryMacs": null,
+        "inBandIp": "192.168.2.61",
+        "inBandNetmask": 16,
+        "inBandMac": "00:00:00:00:00:00",
+        "inBandVlan": 0,
+        "inBandSecondaryMacs": null,
+        "fabTid": 4738,
+        "clusterTid": 0,
+        "outPort": 46,
+        "version": "2.5.2050110293,pn-nvOS-2.5.1-2050112421",
+        "state": "online",
+        "firmwareUpgrade": "not-required",
+        "deviceState": "ok",
+        "ports": "72",
+        "type": null,
+        "fabMcastIp": null,
+        "mgmtL3Port": null,
+        "inBandL3Port": null,
+        "portCount": 72,
+        "vnetId": "0:0",
+        "mgmtPublicVlan": 0,
+        "inBandVlanType": "public",
+        "inBandPublicVlan": 0,
+        "coordinateX": 468.3786003951201,
+        "coordinateY": 89.33271847748688,
+        "label": null,
+        "networkTrunks": [
+          {
+            "trunk": 128,
+            "trunkname": "TO-TME-MGMT"
+          },
+          {
+            "trunk": 255,
+            "trunkname": "auto-nputrunk"
+          }
+        ],
+        "networkVlags": null,
+        "networkPorts": [
+          {
+            "description": "TME Management Switch 1 - mgmt"
+          },
+          {
+            "description": "TME Management Switch 1 - #9"
+          },
+          {
+            "description": "aquila02"
+          },
+          {
+            "description": "gw_phi_port9"
+          },
+          {
+            "description": "TME Management Switch 2 - mgmt"
+          },
+          {
+            "description": "Nutanix_Node"
+          },
+          {
+            "description": "to aquila21-0"
+          },
+          {
+            "description": "fixa"
+          },
+          {
+            "description": "RanaONVL"
+          },
+          {
+            "description": "TME Management Switch 2 - #9"
+          },
+          {
+            "description": "connected to vw-port11"
+          }
+        ]
+      },
+      {
+        "networkCode": 1,
+        "code": 7379,
+        "id": "184549541",
+        "name": "cruxb1",
+        "fabName": "pn-fab",
+        "fabId": "b000021:52a1b620",
+        "clusterId": "0:0",
+        "localMac": "64:0e:94:30:02:59",
+        "fabricNetwork": "in-band",
+        "controlNetwork": "in-band",
+        "mgmtIp": "10.20.19.116",
+        "mgmtNetmask": 16,
+        "mgmtMac": "64:0e:94:30:02:57",
+        "mgmtSecondaryMacs": null,
+        "inBandIp": "192.168.20.116",
+        "inBandNetmask": 16,
+        "inBandMac": "00:00:00:00:00:00",
+        "inBandVlan": 0,
+        "inBandSecondaryMacs": null,
+        "fabTid": 4738,
+        "clusterTid": 0,
+        "outPort": 43,
+        "version": "2.5.2050110293,pn-nvOS-2.5.1-2050112421",
+        "state": "online",
+        "firmwareUpgrade": "not-required",
+        "deviceState": "ok",
+        "ports": "72",
+        "type": null,
+        "fabMcastIp": null,
+        "mgmtL3Port": null,
+        "inBandL3Port": null,
+        "portCount": 72,
+        "vnetId": "0:0",
+        "mgmtPublicVlan": 0,
+        "inBandVlanType": "public",
+        "inBandPublicVlan": 0,
+        "coordinateX": 357.8980214598323,
+        "coordinateY": 149.91400579253366,
+        "label": null,
+        "networkTrunks": [
+          {
+            "trunk": 253,
+            "trunkname": "vxlan-loopback-trunk"
+          }
+        ],
+        "networkVlags": null,
+        "networkPorts": [
+          {
+            "description": "none"
+          }
+        ]
+      },
+      {
+        "networkCode": 1,
+        "code": 7376,
+        "id": "184549409",
+        "name": "aquila02",
+        "fabName": "pn-fab",
+        "fabId": "b000021:52a1b620",
+        "clusterId": "0:0",
+        "localMac": "64:0e:94:2c:00:7a",
+        "fabricNetwork": "in-band",
+        "controlNetwork": "in-band",
+        "mgmtIp": "10.20.9.137",
+        "mgmtNetmask": 16,
+        "mgmtMac": "64:0e:94:2c:00:78",
+        "mgmtSecondaryMacs": null,
+        "inBandIp": "192.168.2.31",
+        "inBandNetmask": 16,
+        "inBandMac": "64:0e:94:2c:00:7a",
+        "inBandVlan": 0,
+        "inBandSecondaryMacs": null,
+        "fabTid": 4738,
+        "clusterTid": 0,
+        "outPort": 0,
+        "version": "2.5.2050110293,pn-nvOS-2.5.1-2050112421",
+        "state": "online",
+        "firmwareUpgrade": "not-required",
+        "deviceState": "ok",
+        "ports": "72",
+        "type": "B",
+        "fabMcastIp": null,
+        "mgmtL3Port": null,
+        "inBandL3Port": null,
+        "portCount": 72,
+        "vnetId": "0:0",
+        "mgmtPublicVlan": 0,
+        "inBandVlanType": "public",
+        "inBandPublicVlan": 0,
+        "coordinateX": 608.6431121081778,
+        "coordinateY": 157.33323829655967,
+        "label": null,
+        "networkTrunks": [
+          {
+            "trunk": 129,
+            "trunkname": "to-sp0102"
+          },
+          {
+            "trunk": 128,
+            "trunkname": "auto-128"
+          },
+          {
+            "trunk": 255,
+            "trunkname": "auto-nputrunk"
+          }
+        ],
+        "networkVlags": null,
+        "networkPorts": [
+          {
+            "description": "to pn-dev02"
+          },
+          {
+            "description": "to pn-dev01"
+          },
+          {
+            "description": "na"
+          },
+          {
+            "description": "to spine01"
+          },
+          {
+            "description": "to pn-dev02"
+          },
+          {
+            "description": "to-pn-dev03"
+          },
+          {
+            "description": "to pn-dev02"
+          },
+          {
+            "description": "to-pn-dev04"
+          },
+          {
+            "description": "to spine02"
+          },
+          {
+            "description": "to spine02"
+          },
+          {
+            "description": "to spine01"
+          },
+          {
+            "description": "to pn-dev02"
+          }
+        ]
+      },
+      {
+        "networkCode": 1,
+        "code": 7377,
+        "id": "201327275",
+        "name": "cruxb3",
+        "fabName": "pn-fab",
+        "fabId": "b000021:52a1b620",
+        "clusterId": "0:0",
+        "localMac": "64:0e:94:c0:06:0b",
+        "fabricNetwork": "in-band",
+        "controlNetwork": "in-band",
+        "mgmtIp": "10.20.19.112",
+        "mgmtNetmask": 16,
+        "mgmtMac": "64:0e:94:c0:06:0f",
+        "mgmtSecondaryMacs": null,
+        "inBandIp": "192.168.20.112",
+        "inBandNetmask": 16,
+        "inBandMac": "00:00:00:00:00:00",
+        "inBandVlan": 0,
+        "inBandSecondaryMacs": null,
+        "fabTid": 4738,
+        "clusterTid": 0,
+        "outPort": 43,
+        "version": "2.5.2050110293,pn-nvOS-2.5.1-2050112421",
+        "state": "online",
+        "firmwareUpgrade": "not-required",
+        "deviceState": "ok",
+        "ports": "72",
+        "type": null,
+        "fabMcastIp": null,
+        "mgmtL3Port": null,
+        "inBandL3Port": null,
+        "portCount": 72,
+        "vnetId": "0:0",
+        "mgmtPublicVlan": 0,
+        "inBandVlanType": "public",
+        "inBandPublicVlan": 0,
+        "coordinateX": 305.81407681285646,
+        "coordinateY": 16.206046359223365,
+        "label": null,
+        "networkTrunks": [
+          {
+            "trunk": 254,
+            "trunkname": "auto-spantrunk"
+          },
+          {
+            "trunk": 253,
+            "trunkname": "vxlan-loopback-trunk"
+          }
+        ],
+        "networkVlags": null,
+        "networkPorts": [
+
+        ]
+      },
+      {
+        "networkCode": 1,
+        "code": 7378,
+        "id": "167772236",
+        "name": "pn-dev01",
+        "fabName": "pn-fab",
+        "fabId": "b000021:52a1b620",
+        "clusterId": "0:0",
+        "localMac": "64:0e:94:28:00:fa",
+        "fabricNetwork": "in-band",
+        "controlNetwork": "in-band",
+        "mgmtIp": "10.20.19.103",
+        "mgmtNetmask": 16,
+        "mgmtMac": "64:0e:94:28:00:fb",
+        "mgmtSecondaryMacs": null,
+        "inBandIp": "192.168.20.3",
+        "inBandNetmask": 16,
+        "inBandMac": "00:00:00:00:00:00",
+        "inBandVlan": 0,
+        "inBandSecondaryMacs": null,
+        "fabTid": 4738,
+        "clusterTid": 0,
+        "outPort": 63,
+        "version": "2.5.2050110293,pn-nvOS-2.5.1-2050112421",
+        "state": "online",
+        "firmwareUpgrade": "not-required",
+        "deviceState": "ok",
+        "ports": "72",
+        "type": "B",
+        "fabMcastIp": null,
+        "mgmtL3Port": null,
+        "inBandL3Port": null,
+        "portCount": 72,
+        "vnetId": "0:0",
+        "mgmtPublicVlan": 0,
+        "inBandVlanType": "public",
+        "inBandPublicVlan": 0,
+        "coordinateX": 243.39154239732886,
+        "coordinateY": 115.56653286599595,
+        "label": null,
+        "networkTrunks": [
+          {
+            "trunk": 255,
+            "trunkname": "auto-nputrunk"
+          },
+          {
+            "trunk": 128,
+            "trunkname": "tr1"
+          }
+        ],
+        "networkVlags": null,
+        "networkPorts": [
+          {
+            "description": "cruxb2"
+          },
+          {
+            "description": "cruxa0"
+          },
+          {
+            "description": "cruxb1"
+          },
+          {
+            "description": "cruxa3"
+          },
+          {
+            "description": "cruxb0"
+          },
+          {
+            "description": "eddy"
+          },
+          {
+            "description": "eddy"
+          },
+          {
+            "description": "bad xcvr do not use"
+          },
+          {
+            "description": "essex02"
+          },
+          {
+            "description": "essex01 (dev)"
+          },
+          {
+            "description": "minx"
+          },
+          {
+            "description": "cruxa2"
+          },
+          {
+            "description": "cruxb3"
+          },
+          {
+            "description": "aquila02"
+          }
+        ]
+      },
+      {
+        "networkCode": 1,
+        "code": 7380,
+        "id": "184549544",
+        "name": "pn-lab01",
+        "fabName": "pn-fab",
+        "fabId": "b000021:52a1b620",
+        "clusterId": "0:0",
+        "localMac": "64:0e:94:c0:00:3a",
+        "fabricNetwork": "in-band",
+        "controlNetwork": "in-band",
+        "mgmtIp": "10.9.9.111",
+        "mgmtNetmask": 16,
+        "mgmtMac": "64:0e:94:c0:00:3e",
+        "mgmtSecondaryMacs": null,
+        "inBandIp": "192.168.2.11",
+        "inBandNetmask": 16,
+        "inBandMac": "00:00:00:00:00:00",
+        "inBandVlan": 0,
+        "inBandSecondaryMacs": null,
+        "fabTid": 4738,
+        "clusterTid": 0,
+        "outPort": 61,
+        "version": "2.5.2050110293,pn-nvOS-2.5.1-2050112421",
+        "state": "online",
+        "firmwareUpgrade": "not-required",
+        "deviceState": "ok",
+        "ports": "0",
+        "type": "B",
+        "fabMcastIp": null,
+        "mgmtL3Port": null,
+        "inBandL3Port": null,
+        "portCount": 72,
+        "vnetId": "0:0",
+        "mgmtPublicVlan": 0,
+        "inBandVlanType": "public",
+        "inBandPublicVlan": 0,
+        "coordinateX": 769.9033993725834,
+        "coordinateY": 110.2404605868908,
+        "label": null,
+        "networkTrunks": [
+          {
+            "trunk": 254,
+            "trunkname": "auto-spantrunk"
+          },
+          {
+            "trunk": 253,
+            "trunkname": "vxlan-loopback-trunk"
+          }
+        ],
+        "networkVlags": null,
+        "networkPorts": [
+
+        ]
+      },
+      {
+        "networkCode": 1,
+        "code": 7381,
+        "id": "184549528",
+        "name": "pn-dev02",
+        "fabName": "pn-fab",
+        "fabId": "b000021:52a1b620",
+        "clusterId": "0:0",
+        "localMac": "64:0e:94:2c:01:7a",
+        "fabricNetwork": "in-band",
+        "controlNetwork": "in-band",
+        "mgmtIp": "10.20.9.148",
+        "mgmtNetmask": 16,
+        "mgmtMac": "64:0e:94:2c:01:7c",
+        "mgmtSecondaryMacs": null,
+        "inBandIp": "192.168.2.41",
+        "inBandNetmask": 16,
+        "inBandMac": "64:0e:94:2c:01:7a",
+        "inBandVlan": 0,
+        "inBandSecondaryMacs": null,
+        "fabTid": 4738,
+        "clusterTid": 0,
+        "outPort": 128,
+        "version": "2.5.2050110293,pn-nvOS-2.5.1-2050112421",
+        "state": "online",
+        "firmwareUpgrade": "not-required",
+        "deviceState": "ok",
+        "ports": "72",
+        "type": "B",
+        "fabMcastIp": null,
+        "mgmtL3Port": null,
+        "inBandL3Port": null,
+        "portCount": 72,
+        "vnetId": "0:0",
+        "mgmtPublicVlan": 0,
+        "inBandVlanType": "public",
+        "inBandPublicVlan": 0,
+        "coordinateX": 691.9771713307532,
+        "coordinateY": 150.78569916206334,
+        "label": null,
+        "networkTrunks": [
+          {
+            "trunk": 255,
+            "trunkname": "auto-nputrunk"
+          },
+          {
+            "trunk": 128,
+            "trunkname": "auto-128"
+          }
+        ],
+        "networkVlags": null,
+        "networkPorts": [
+          {
+            "description": "aquila02"
+          },
+          {
+            "description": "aquila02"
+          },
+          {
+            "description": "aquila02"
+          },
+          {
+            "description": "aquila02"
+          },
+          {
+            "description": "to pn-lab01"
+          }
+        ]
+      },
+      {
+        "networkCode": 1,
+        "code": 7382,
+        "id": "184549539",
+        "name": "spine02",
+        "fabName": "pn-fab",
+        "fabId": "b000021:52a1b620",
+        "clusterId": "b0000a2:0",
+        "localMac": "64:0e:94:2c:01:a5",
+        "fabricNetwork": "in-band",
+        "controlNetwork": "in-band",
+        "mgmtIp": "10.20.9.122",
+        "mgmtNetmask": 16,
+        "mgmtMac": "64:0e:94:2c:01:a3",
+        "mgmtSecondaryMacs": null,
+        "inBandIp": "192.168.20.122",
+        "inBandNetmask": 16,
+        "inBandMac": "00:00:00:00:00:00",
+        "inBandVlan": 0,
+        "inBandSecondaryMacs": null,
+        "fabTid": 4738,
+        "clusterTid": 19,
+        "outPort": 128,
+        "version": "2.5.2050110293,pn-nvOS-2.5.1-2050112421",
+        "state": "online",
+        "firmwareUpgrade": "not-required",
+        "deviceState": "ok",
+        "ports": "104",
+        "type": "B",
+        "fabMcastIp": null,
+        "mgmtL3Port": null,
+        "inBandL3Port": null,
+        "portCount": 104,
+        "vnetId": "0:0",
+        "mgmtPublicVlan": 0,
+        "inBandVlanType": "public",
+        "inBandPublicVlan": 0,
+        "coordinateX": 601.6656104399882,
+        "coordinateY": 245.3466527871235,
+        "label": null,
+        "networkTrunks": [
+          {
+            "trunk": 253,
+            "trunkname": "vxlan-loopback-trunk"
+          },
+          {
+            "trunk": 128,
+            "trunkname": "cltrunk"
+          },
+          {
+            "trunk": 254,
+            "trunkname": "auto-spantrunk"
+          }
+        ],
+        "networkVlags": [
+          {
+            "vlag": "b0000a2:0",
+            "vlagname": "to-aquila02"
+          },
+          {
+            "vlag": "b0000a2:4",
+            "vlagname": "vlag-fixa"
+          },
+          {
+            "vlag": "b0000a3:1",
+            "vlagname": "vlag-vmw-2"
+          },
+          {
+            "vlag": "b0000a2:6",
+            "vlagname": "vlag-gorm"
+          },
+          {
+            "vlag": "b0000a3:0",
+            "vlagname": "vlag-vmw-1"
+          }
+        ],
+        "networkPorts": [
+          {
+            "description": "to aquila02"
+          },
+          {
+            "description": "to fixa"
+          },
+          {
+            "description": "to spine01"
+          },
+          {
+            "description": "to gorm"
+          },
+          {
+            "description": "to aquila02"
+          }
+        ]
+      },
+      {
+        "networkCode": 1,
+        "code": 7383,
+        "id": "184549538",
+        "name": "spine01",
+        "fabName": "pn-fab",
+        "fabId": "b000021:52a1b620",
+        "clusterId": "b0000a2:0",
+        "localMac": "64:0e:94:2c:01:9f",
+        "fabricNetwork": "in-band",
+        "controlNetwork": "in-band",
+        "mgmtIp": "10.20.9.121",
+        "mgmtNetmask": 16,
+        "mgmtMac": "64:0e:94:2c:01:9d",
+        "mgmtSecondaryMacs": null,
+        "inBandIp": "192.168.20.121",
+        "inBandNetmask": 16,
+        "inBandMac": "00:00:00:00:00:00",
+        "inBandVlan": 0,
+        "inBandSecondaryMacs": null,
+        "fabTid": 4738,
+        "clusterTid": 19,
+        "outPort": 128,
+        "version": "2.5.2050110293,pn-nvOS-2.5.1-2050112421",
+        "state": "online",
+        "firmwareUpgrade": "not-required",
+        "deviceState": "ok",
+        "ports": "104",
+        "type": "B",
+        "fabMcastIp": null,
+        "mgmtL3Port": null,
+        "inBandL3Port": null,
+        "portCount": 104,
+        "vnetId": "0:0",
+        "mgmtPublicVlan": 0,
+        "inBandVlanType": "public",
+        "inBandPublicVlan": 0,
+        "coordinateX": 773.8718842312942,
+        "coordinateY": 223.4927431279633,
+        "label": null,
+        "networkTrunks": [
+          {
+            "trunk": 253,
+            "trunkname": "vxlan-loopback-trunk"
+          },
+          {
+            "trunk": 128,
+            "trunkname": "cltrunk"
+          },
+          {
+            "trunk": 254,
+            "trunkname": "auto-spantrunk"
+          }
+        ],
+        "networkVlags": [
+          {
+            "vlag": "b0000a2:0",
+            "vlagname": "to-aquila02"
+          },
+          {
+            "vlag": "b0000a3:1",
+            "vlagname": "vlag-vmw-2"
+          },
+          {
+            "vlag": "b0000a2:4",
+            "vlagname": "vlag-fixa"
+          },
+          {
+            "vlag": "b0000a3:0",
+            "vlagname": "vlag-vmw-1"
+          },
+          {
+            "vlag": "b0000a2:6",
+            "vlagname": "vlag-gorm"
+          }
+        ],
+        "networkPorts": [
+          {
+            "description": "to spine02"
+          },
+          {
+            "description": "to aquila02"
+          },
+          {
+            "description": "to aquila02"
+          },
+          {
+            "description": "to gorm"
+          },
+          {
+            "description": "to fixa"
+          }
+        ]
+      },
+      {
+        "networkCode": 1,
+        "code": 7384,
+        "id": "201326772",
+        "name": "cruxb2",
+        "fabName": "pn-fab",
+        "fabId": "b000021:52a1b620",
+        "clusterId": "0:0",
+        "localMac": "64:0e:94:30:02:53",
+        "fabricNetwork": "in-band",
+        "controlNetwork": "in-band",
+        "mgmtIp": "10.20.19.114",
+        "mgmtNetmask": 16,
+        "mgmtMac": "64:0e:94:30:02:51",
+        "mgmtSecondaryMacs": null,
+        "inBandIp": "192.168.20.114",
+        "inBandNetmask": 16,
+        "inBandMac": "00:00:00:00:00:00",
+        "inBandVlan": 0,
+        "inBandSecondaryMacs": null,
+        "fabTid": 4738,
+        "clusterTid": 0,
+        "outPort": 43,
+        "version": "2.5.2050110293,pn-nvOS-2.5.1-2050112421",
+        "state": "online",
+        "firmwareUpgrade": "not-required",
+        "deviceState": "ok",
+        "ports": "72",
+        "type": null,
+        "fabMcastIp": null,
+        "mgmtL3Port": null,
+        "inBandL3Port": null,
+        "portCount": 72,
+        "vnetId": "0:0",
+        "mgmtPublicVlan": 0,
+        "inBandVlanType": "public",
+        "inBandPublicVlan": 0,
+        "coordinateX": 297.7250275360557,
+        "coordinateY": 176.67624739473695,
+        "label": null,
+        "networkTrunks": [
+          {
+            "trunk": 253,
+            "trunkname": "vxlan-loopback-trunk"
+          }
+        ],
+        "networkVlags": null,
+        "networkPorts": [
+          {
+            "description": "fabric"
+          },
+          {
+            "description": "power"
+          },
+          {
+            "description": "power"
+          }
+        ]
+      },
+      {
+        "networkCode": 1,
+        "code": 7385,
+        "id": null,
+        "name": "arista-spine1",
+        "fabName": null,
+        "fabId": null,
+        "clusterId": null,
+        "localMac": null,
+        "fabricNetwork": null,
+        "controlNetwork": null,
+        "mgmtIp": null,
+        "mgmtNetmask": null,
+        "mgmtMac": null,
+        "mgmtSecondaryMacs": null,
+        "inBandIp": null,
+        "inBandNetmask": null,
+        "inBandMac": null,
+        "inBandVlan": null,
+        "inBandSecondaryMacs": null,
+        "fabTid": null,
+        "clusterTid": null,
+        "outPort": null,
+        "version": null,
+        "state": null,
+        "firmwareUpgrade": null,
+        "deviceState": null,
+        "ports": null,
+        "type": "B,R",
+        "fabMcastIp": null,
+        "mgmtL3Port": null,
+        "inBandL3Port": null,
+        "portCount": 0,
+        "vnetId": null,
+        "mgmtPublicVlan": null,
+        "inBandVlanType": null,
+        "inBandPublicVlan": null,
+        "coordinateX": 247.02053070364943,
+        "coordinateY": 206.8596206469009,
+        "label": null,
+        "networkTrunks": null,
+        "networkVlags": null,
+        "networkPorts": null
+      },
+      {
+        "networkCode": 1,
+        "code": 7386,
+        "id": null,
+        "name": "arista-spine2",
+        "fabName": null,
+        "fabId": null,
+        "clusterId": null,
+        "localMac": null,
+        "fabricNetwork": null,
+        "controlNetwork": null,
+        "mgmtIp": null,
+        "mgmtNetmask": null,
+        "mgmtMac": null,
+        "mgmtSecondaryMacs": null,
+        "inBandIp": null,
+        "inBandNetmask": null,
+        "inBandMac": null,
+        "inBandVlan": null,
+        "inBandSecondaryMacs": null,
+        "fabTid": null,
+        "clusterTid": null,
+        "outPort": null,
+        "version": null,
+        "state": null,
+        "firmwareUpgrade": null,
+        "deviceState": null,
+        "ports": null,
+        "type": "B,R",
+        "fabMcastIp": null,
+        "mgmtL3Port": null,
+        "inBandL3Port": null,
+        "portCount": 0,
+        "vnetId": null,
+        "mgmtPublicVlan": null,
+        "inBandVlanType": null,
+        "inBandPublicVlan": null,
+        "coordinateX": 309.778515795931,
+        "coordinateY": 222.37856848298088,
+        "label": null,
+        "networkTrunks": null,
+        "networkVlags": null,
+        "networkPorts": null
+      },
+      {
+        "networkCode": 1,
+        "code": 7387,
+        "id": "201326777",
+        "name": "cruxb0",
+        "fabName": "pn-fab",
+        "fabId": "b000021:52a1b620",
+        "clusterId": "0:0",
+        "localMac": "64:0e:94:30:02:71",
+        "fabricNetwork": "in-band",
+        "controlNetwork": "in-band",
+        "mgmtIp": "10.20.19.118",
+        "mgmtNetmask": 16,
+        "mgmtMac": "64:0e:94:30:02:6f",
+        "mgmtSecondaryMacs": null,
+        "inBandIp": "192.168.20.118",
+        "inBandNetmask": 16,
+        "inBandMac": "00:00:00:00:00:00",
+        "inBandVlan": 0,
+        "inBandSecondaryMacs": null,
+        "fabTid": 4738,
+        "clusterTid": 0,
+        "outPort": 43,
+        "version": "2.5.2050110293,pn-nvOS-2.5.1-2050112421",
+        "state": "online",
+        "firmwareUpgrade": "not-required",
+        "deviceState": "ok",
+        "ports": "72",
+        "type": null,
+        "fabMcastIp": null,
+        "mgmtL3Port": null,
+        "inBandL3Port": null,
+        "portCount": 72,
+        "vnetId": "0:0",
+        "mgmtPublicVlan": 0,
+        "inBandVlanType": "public",
+        "inBandPublicVlan": 0,
+        "coordinateX": 246.87617725995852,
+        "coordinateY": 55.87893318673005,
+        "label": null,
+        "networkTrunks": [
+          {
+            "trunk": 253,
+            "trunkname": "vxlan-loopback-trunk"
+          }
+        ],
+        "networkVlags": null,
+        "networkPorts": [
+          {
+            "description": "power"
+          },
+          {
+            "description": "fabric"
+          }
+        ]
+      },
+      {
+        "networkCode": 1,
+        "code": 7388,
+        "id": "184549540",
+        "name": "cruxa3",
+        "fabName": "pn-fab",
+        "fabId": "b000021:52a1b620",
+        "clusterId": "0:0",
+        "localMac": "64:0e:94:30:02:8f",
+        "fabricNetwork": "in-band",
+        "controlNetwork": "in-band",
+        "mgmtIp": "10.20.19.111",
+        "mgmtNetmask": 16,
+        "mgmtMac": "64:0e:94:30:02:8d",
+        "mgmtSecondaryMacs": null,
+        "inBandIp": "192.168.20.11",
+        "inBandNetmask": 16,
+        "inBandMac": "00:00:00:00:00:00",
+        "inBandVlan": 0,
+        "inBandSecondaryMacs": null,
+        "fabTid": 4738,
+        "clusterTid": 0,
+        "outPort": 43,
+        "version": "2.5.2050110293,pn-nvOS-2.5.1-2050112421",
+        "state": "online",
+        "firmwareUpgrade": "not-required",
+        "deviceState": "ok",
+        "ports": "72",
+        "type": null,
+        "fabMcastIp": null,
+        "mgmtL3Port": null,
+        "inBandL3Port": null,
+        "portCount": 72,
+        "vnetId": "0:0",
+        "mgmtPublicVlan": 0,
+        "inBandVlanType": "public",
+        "inBandPublicVlan": 0,
+        "coordinateX": 317.32210351033723,
+        "coordinateY": 69.13850225374361,
+        "label": null,
+        "networkTrunks": [
+          {
+            "trunk": 128,
+            "trunkname": "ursa-perf-mgmt"
+          },
+          {
+            "trunk": 253,
+            "trunkname": "vxlan-loopback-trunk"
+          }
+        ],
+        "networkVlags": null,
+        "networkPorts": [
+          {
+            "description": "fabric"
+          },
+          {
+            "description": "ixia"
+          },
+          {
+            "description": "power"
+          },
+          {
+            "description": "smarta-2"
+          },
+          {
+            "description": "To ursa-perf igb0"
+          }
+        ]
+      },
+      {
+        "networkCode": 1,
+        "code": 7389,
+        "id": "201326799",
+        "name": "cruxa2",
+        "fabName": "pn-fab",
+        "fabId": "b000021:52a1b620",
+        "clusterId": "0:0",
+        "localMac": "64:0e:94:30:02:ef",
+        "fabricNetwork": "in-band",
+        "controlNetwork": "in-band",
+        "mgmtIp": "10.20.19.113",
+        "mgmtNetmask": 16,
+        "mgmtMac": "64:0e:94:30:02:ed",
+        "mgmtSecondaryMacs": null,
+        "inBandIp": "192.168.20.113",
+        "inBandNetmask": 16,
+        "inBandMac": "00:00:00:00:00:00",
+        "inBandVlan": 0,
+        "inBandSecondaryMacs": null,
+        "fabTid": 4738,
+        "clusterTid": 0,
+        "outPort": 43,
+        "version": "2.5.2050110293,pn-nvOS-2.5.1-2050112421",
+        "state": "online",
+        "firmwareUpgrade": "not-required",
+        "deviceState": "ok",
+        "ports": "72",
+        "type": null,
+        "fabMcastIp": null,
+        "mgmtL3Port": null,
+        "inBandL3Port": null,
+        "portCount": 72,
+        "vnetId": "0:0",
+        "mgmtPublicVlan": 0,
+        "inBandVlanType": "public",
+        "inBandPublicVlan": 0,
+        "coordinateX": 153.79660533854712,
+        "coordinateY": 94.0824269540401,
+        "label": null,
+        "networkTrunks": [
+          {
+            "trunk": 253,
+            "trunkname": "vxlan-loopback-trunk"
+          },
+          {
+            "trunk": 254,
+            "trunkname": "auto-spantrunk"
+          }
+        ],
+        "networkVlags": null,
+        "networkPorts": [
+          {
+            "description": "uplink to pn-dev01"
+          },
+          {
+            "description": "leo-florence-ipmi"
+          },
+          {
+            "description": "leo-florence-mgmt"
+          }
+        ]
+      },
+      {
+        "networkCode": 1,
+        "code": 7390,
+        "id": null,
+        "name": "nexus9k-dellL3.pluribusnetworks.com",
+        "fabName": null,
+        "fabId": null,
+        "clusterId": null,
+        "localMac": null,
+        "fabricNetwork": null,
+        "controlNetwork": null,
+        "mgmtIp": null,
+        "mgmtNetmask": null,
+        "mgmtMac": null,
+        "mgmtSecondaryMacs": null,
+        "inBandIp": null,
+        "inBandNetmask": null,
+        "inBandMac": null,
+        "inBandVlan": null,
+        "inBandSecondaryMacs": null,
+        "fabTid": null,
+        "clusterTid": null,
+        "outPort": null,
+        "version": null,
+        "state": null,
+        "firmwareUpgrade": null,
+        "deviceState": null,
+        "ports": null,
+        "type": "B,R",
+        "fabMcastIp": null,
+        "mgmtL3Port": null,
+        "inBandL3Port": null,
+        "portCount": 0,
+        "vnetId": null,
+        "mgmtPublicVlan": null,
+        "inBandVlanType": null,
+        "inBandPublicVlan": null,
+        "coordinateX": 29.9652816321707,
+        "coordinateY": 107.97143918699004,
+        "label": null,
+        "networkTrunks": null,
+        "networkVlags": null,
+        "networkPorts": null
+      },
+      {
+        "networkCode": 1,
+        "code": 7391,
+        "id": null,
+        "name": "nexus-9k-2.pluribusnetworks.com",
+        "fabName": null,
+        "fabId": null,
+        "clusterId": null,
+        "localMac": null,
+        "fabricNetwork": null,
+        "controlNetwork": null,
+        "mgmtIp": null,
+        "mgmtNetmask": null,
+        "mgmtMac": null,
+        "mgmtSecondaryMacs": null,
+        "inBandIp": null,
+        "inBandNetmask": null,
+        "inBandMac": null,
+        "inBandVlan": null,
+        "inBandSecondaryMacs": null,
+        "fabTid": null,
+        "clusterTid": null,
+        "outPort": null,
+        "version": null,
+        "state": null,
+        "firmwareUpgrade": null,
+        "deviceState": null,
+        "ports": null,
+        "type": "B,R",
+        "fabMcastIp": null,
+        "mgmtL3Port": null,
+        "inBandL3Port": null,
+        "portCount": 0,
+        "vnetId": null,
+        "mgmtPublicVlan": null,
+        "inBandVlanType": null,
+        "inBandPublicVlan": null,
+        "coordinateX": 57.751787204249354,
+        "coordinateY": 174.03616816043473,
+        "label": null,
+        "networkTrunks": null,
+        "networkVlags": null,
+        "networkPorts": null
+      },
+      {
+        "networkCode": 1,
+        "code": 7392,
+        "id": null,
+        "name": "vcfc-smci-switchA2",
+        "fabName": null,
+        "fabId": null,
+        "clusterId": null,
+        "localMac": null,
+        "fabricNetwork": null,
+        "controlNetwork": null,
+        "mgmtIp": null,
+        "mgmtNetmask": null,
+        "mgmtMac": null,
+        "mgmtSecondaryMacs": null,
+        "inBandIp": null,
+        "inBandNetmask": null,
+        "inBandMac": null,
+        "inBandVlan": null,
+        "inBandSecondaryMacs": null,
+        "fabTid": null,
+        "clusterTid": null,
+        "outPort": null,
+        "version": null,
+        "state": null,
+        "firmwareUpgrade": null,
+        "deviceState": null,
+        "ports": null,
+        "type": "B",
+        "fabMcastIp": null,
+        "mgmtL3Port": null,
+        "inBandL3Port": null,
+        "portCount": 0,
+        "vnetId": null,
+        "mgmtPublicVlan": null,
+        "inBandVlanType": null,
+        "inBandPublicVlan": null,
+        "coordinateX": 146.42343065204517,
+        "coordinateY": 205.9718796990024,
+        "label": null,
+        "networkTrunks": null,
+        "networkVlags": null,
+        "networkPorts": null
+      }
+    ],
+    "links": [
+      {
+        "networkCode": 1,
+        "code": 8176,
+        "source": "spine02",
+        "sourcePort": "5",
+        "target": "aquila02",
+        "targetPort": "40",
+        "type": "normalRoute"
+      },
+      {
+        "networkCode": 1,
+        "code": 8177,
+        "source": "spine02",
+        "sourcePort": "13",
+        "target": "spine01",
+        "targetPort": "13",
+        "type": "normalRoute"
+      },
+      {
+        "networkCode": 1,
+        "code": 8178,
+        "source": "spine01",
+        "sourcePort": "4",
+        "target": "aquila02",
+        "targetPort": "8",
+        "type": "normalRoute"
+      },
+      {
+        "networkCode": 1,
+        "code": 8179,
+        "source": "spine01",
+        "sourcePort": "5",
+        "target": "aquila02",
+        "targetPort": "4",
+        "type": "normalRoute"
+      },
+      {
+        "networkCode": 1,
+        "code": 8180,
+        "source": "cruxb2",
+        "sourcePort": "40",
+        "target": "arista-spine1",
+        "targetPort": "Management1",
+        "type": "normalRoute"
+      },
+      {
+        "networkCode": 1,
+        "code": 8181,
+        "source": "cruxb2",
+        "sourcePort": "40",
+        "target": "arista-spine2",
+        "targetPort": "Management1",
+        "type": "normalRoute"
+      },
+      {
+        "networkCode": 1,
+        "code": 8182,
+        "source": "cruxb2",
+        "sourcePort": "43",
+        "target": "pn-dev01",
+        "targetPort": "64",
+        "type": "normalRoute"
+      },
+      {
+        "networkCode": 1,
+        "code": 8185,
+        "source": "cruxa2",
+        "sourcePort": "33",
+        "target": "nexus-9k-2.pluribusnetworks.com",
+        "targetPort": "mgmt0",
+        "type": "normalRoute"
+      },
+      {
+        "networkCode": 1,
+        "code": 8186,
+        "source": "cruxa2",
+        "sourcePort": "36",
+        "target": "vcfc-smci-switchA2",
+        "targetPort": "62",
+        "type": "normalRoute"
+      },
+      {
+        "networkCode": 1,
+        "code": 8187,
+        "source": "cruxa2",
+        "sourcePort": "43",
+        "target": "pn-dev01",
+        "targetPort": "23",
+        "type": "normalRoute"
+      },
+      {
+        "networkCode": 1,
+        "code": 8189,
+        "source": "pn-dev02",
+        "sourcePort": "41",
+        "target": "aquila02",
+        "targetPort": "41",
+        "type": "normalRoute"
+      },
+      {
+        "networkCode": 1,
+        "code": 8191,
+        "source": "pn-dev02",
+        "sourcePort": "43",
+        "target": "aquila02",
+        "targetPort": "43",
+        "type": "normalRoute"
+      },
+      {
+        "networkCode": 1,
+        "code": 8172,
+        "source": "cruxb3",
+        "sourcePort": "43",
+        "target": "pn-dev01",
+        "targetPort": "60",
+        "type": "normalRoute"
+      },
+      {
+        "networkCode": 1,
+        "code": 8173,
+        "source": "cruxb1",
+        "sourcePort": "43",
+        "target": "pn-dev01",
+        "targetPort": "59",
+        "type": "normalRoute"
+      },
+      {
+        "networkCode": 1,
+        "code": 8174,
+        "source": "pn-lab01",
+        "sourcePort": "61",
+        "target": "pn-dev02",
+        "targetPort": "4",
+        "type": "normalRoute"
+      },
+      {
+        "networkCode": 1,
+        "code": 8175,
+        "source": "spine02",
+        "sourcePort": "4",
+        "target": "aquila02",
+        "targetPort": "36",
+        "type": "normalRoute"
+      },
+      {
+        "networkCode": 1,
+        "code": 8183,
+        "source": "cruxb0",
+        "sourcePort": "43",
+        "target": "pn-dev01",
+        "targetPort": "62",
+        "type": "normalRoute"
+      },
+      {
+        "networkCode": 1,
+        "code": 8184,
+        "source": "cruxa2",
+        "sourcePort": "18",
+        "target": "nexus9k-dellL3.pluribusnetworks.com",
+        "targetPort": "mgmt0",
+        "type": "normalRoute"
+      },
+      {
+        "networkCode": 1,
+        "code": 8188,
+        "source": "cruxa2",
+        "sourcePort": "44",
+        "target": "TME-SMCI-1-SWITCH-A2",
+        "targetPort": "62",
+        "type": "normalRoute"
+      },
+      {
+        "networkCode": 1,
+        "code": 8190,
+        "source": "pn-dev02",
+        "sourcePort": "42",
+        "target": "aquila02",
+        "targetPort": "42",
+        "type": "normalRoute"
+      },
+      {
+        "networkCode": 1,
+        "code": 8192,
+        "source": "pn-dev02",
+        "sourcePort": "44",
+        "target": "aquila02",
+        "targetPort": "44",
+        "type": "normalRoute"
+      },
+      {
+        "networkCode": 1,
+        "code": 8193,
+        "source": "pn-dev02",
+        "sourcePort": "47",
+        "target": "18:64:72:c6:2a:6a",
+        "targetPort": "18:64:72:c6:2a:6a",
+        "type": "normalRoute"
+      }
+    ]
+  }
+}
