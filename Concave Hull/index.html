@@ -67,7 +67,7 @@ var svg = d3.select("body")
 
 svg.append("g")
   .selectAll("path")
-    .data(mesh);
+    .data(mesh)
   .enter().append("path")
     .attr("d", function(d) { return "M" + d.join("L") + "Z"; });
 

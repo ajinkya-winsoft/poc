@@ -70,12 +70,12 @@ var paddedHull = d3.geom.concaveHull().distance(100).padding(25);
 
 var a = d3.geom.hull(vertices);
 hull
-  .data(d3.geom.hull(vertices))
+  .data(defaultHull(vertices))
     .attr("d", function(d) { return "M" + d.join("L") + "Z"; })
     .attr("stroke", "blue")
     .attr("stroke-width", 0)
     .attr("fill", "steelblue")
-    .attr("fill-opacity",0.2);
+    .attr("fill-opacity",1);
 
 // svgcontainer.selectAll("path")
 //    .dataum(a)
