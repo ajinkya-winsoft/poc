@@ -131,6 +131,10 @@ var node = svg.selectAll(".node")
 node.append("title")
     .text(function(d) { return d.name; });
 
+    function dragstart(d) {
+      d3.select(this).classed("fixed", d.fixed = true);
+    }
+
 force.on("tick", function() {
 
     /*
