@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+.links line {
+  stroke: #999;
+  stroke-opacity: 0.6;
+}
+
+.nodes circle {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+.node {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+.link {
+  stroke: #999;
+  stroke-opacity: .6;
+}
+
+
+
+</style>
+<svg width="960" height="600"></svg>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script>
+
+var svg = d3.select("svg"),
+    width = +svg.attr("width"),
+    height = +svg.attr("height");
+
+var color = d3.scaleOrdinal(d3.schemeCategory20);
+    groupHullColor = "#F53434 ";
+
+var simulation = d3.forceSimulation()
+    .force("link", d3.forceLink().id(function(d) { return d.name; }).distance(200))
+    .force("charge", d3.forceManyBody().strength(-30))
+    .force("center", d3.forceCenter(width / 2, height / 2));
+
+d3.json("network.json", function(error, graph) {
+  if (error) throw error;
+  graph = graph.result;
+
+  var groups = [[4,6,7],[1,3],[2,4]];
+  var groupNodes = groups.map(function(group,index){
+      	return group.map(function(member){return graph.devices[member] });
+  	});
+
+
+    var minNodeSize = 2
+    function radiusOf(element) {return (minNodeSize + (8 * Math.sqrt(0.8))) };
+
+    var groupPath = function(d) {
+    //  console.log(d);
+        var fakePoints = [];
+        d.forEach(function(element) { fakePoints = fakePoints.concat([   // "0.7071" is the sine and cosine of 45 degree for corner points.
+               [(element.x), (element.y + (radiusOf(element) - minNodeSize))],
+               [(element.x + (0.7071 * (radiusOf(element) - minNodeSize))), (element.y + (0.7071 * (radiusOf(element) - minNodeSize)))],
+               [(element.x + (radiusOf(element) - minNodeSize)), (element.y)],
+               [(element.x + (0.7071 * (radiusOf(element) - minNodeSize))), (element.y - (0.7071 * (radiusOf(element) - minNodeSize)))],
+               [(element.x), (element.y - (radiusOf(element) - minNodeSize))],
+               [(element.x - (0.7071 * (radiusOf(element) - minNodeSize))), (element.y - (0.7071 * (radiusOf(element) - minNodeSize)))],
+               [(element.x - (radiusOf(element) - minNodeSize)), (element.y)],
+               [(element.x - (0.7071 * (radiusOf(element) - minNodeSize))), (element.y + (0.7071 * (radiusOf(element) - minNodeSize)))]
+        ]); })
+
+
+        return "M" + d3.polygonHull( fakePoints ).join("L") + "Z";
+    };
+
+    var groupHullFill = function(d, i) { return groupHullColor; };
+
+  var link = svg.append("g")
+      .attr("class", "links")
+    .selectAll("line")
+    .data(graph.links)
+    .enter().append("line")
+      .attr("stroke-width", function(d) { return Math.sqrt(4); });
+
+  var node = svg.append("g")
+      .attr("class", "nodes")
+    .selectAll("circle")
+    .data(graph.devices)
+    .enter().append("circle")
+      .attr("r", 20)
+      .attr("fill",function getRandomColor(d) {
+													    var letters = '0123456789ABCDEF';
+													    var color = '#';
+													    for (var i = 0; i < 6; i++ ) {
+													        color += letters[Math.floor(Math.random() * 16)];
+													    }
+													    return color;
+													}(graph.devices))
+      .call(d3.drag()
+          .on("start", dragstarted)
+          .on("drag", dragged)
+          .on("end", dragended));
+
+  node.append("title")
+      .attr("dx", 12)
+      .attr("dy", ".35em")
+      .text(function(d) { return d.name; });
+
+
+  simulation
+      .nodes(graph.devices)
+      .on("tick", ticked);
+
+  simulation.force("link")
+      .links(graph.links);
+
+  function ticked() {
+
+
+    svg.selectAll("path").remove()
+
+    svg.selectAll("path#group")
+      .data(groupNodes)
+        .attr("d", groupPath)
+     .enter().insert("path")
+        .style("fill", groupHullFill)
+        .style("stroke", groupHullFill)
+        .style("stroke-width", 35)
+        .style("stroke-linejoin", "round")
+        .style("opacity", .2)
+      .attr("ID","group")
+        .attr("d", groupPath);
+
+        svg.selectAll("circle").remove()
+        var node = svg.append("g")
+            .attr("class", "nodes")
+          .selectAll("circle")
+          .data(graph.devices)
+          .enter().append("circle")
+            .attr("r", 20)
+            .attr("fill","green")
+            .call(d3.drag()
+                .on("start", dragstarted)
+                .on("drag", dragged)
+                .on("end", dragended));
+
+
+    link
+        .attr("x1", function(d) { return d.source.x; })
+        .attr("y1", function(d) { return d.source.y; })
+        .attr("x2", function(d) { return d.target.x; })
+        .attr("y2", function(d) { return d.target.y; });
+
+    node
+        .attr("cx", function(d) { return d.x; })
+        .attr("cy", function(d) { return d.y; });
+  }
+});
+
+function dragstarted(d) {
+
+  if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+  d.fx = d.x;
+  d.fy = d.y;
+}
+
+function dragged(d) {
+  d.fx = d3.event.x;
+  d.fy = d3.event.y;
+}
+
+function dragended(d) {
+  if (!d3.event.active) simulation.alphaTarget(0);
+  d.fx = null;
+  d.fy = null;
+}
+
+</script>
